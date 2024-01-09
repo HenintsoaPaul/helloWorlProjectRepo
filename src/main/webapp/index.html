@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+        <ul>
+            <li><a href="HelloWorldServlet" >Premier Servlet</a></li>
+            <li><a href="HelloWorldPrintWriter" >Premier Message</a></li>
+            <li><a href="SendRedirectServlet" >Redirection</a></li>
+            <li><a href="DownloadFileServlet" >Download</a></li>
+            <li><a href="PullClientServlet" >Pull client</a></li>
+            <li><a href="SimpleCounterServlet" >simple counter</a></li>
+            <li><a href="InitCounterServlet" >inited counter from method init()</a></li>
+            <li><a href="InitConfigFileCounterServlet" >inited counter from config file</a></li>
+        </ul>
+        
+        <form action="UIFormServlet" method="POST">
+            <p>Formulaire de satisfaction du cours de Servlet/JSP</p>
+            <p>
+                Nom: <input type="text" name="nom">
+                Prenom: <input type="text" name="prenom">
+            </p>
+            <p>
+                Sexe: 
+                <input type="radio" name="radio1" value="mas" checked>masculin
+                <input type="radio" name="radio2" value="fem">feminin
+            </p>
+            <p>Commentaire: </br>
+                <textarea name="coms" cols="50" rows="10"></textarea> </br>
+                <input type="submit" name="Submit" value="Soumettre">
+            </p>
+        </form>
+    </body>
+</html>
